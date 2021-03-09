@@ -16,7 +16,7 @@ class InstaBot:
         self.driver.find_element_by_xpath('//button[@type="submit"]').click()
         sleep(4)
         self.driver.find_element_by_xpath(
-            "//button[contains(text(), 'Not Now')]"
+            "/html/body/div[1]/section/main/div/div/div/div/button"
         ).click()
         sleep(4)
         self.driver.find_element_by_xpath(
